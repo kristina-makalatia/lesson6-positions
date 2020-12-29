@@ -1,12 +1,18 @@
+/*Base class*/
+.clear {
+	clear: both;
+}
+
+body {
+	padding-top: 36px;
+}
+
 /*Header styles*/
 .logo {
 	float: left;
 }
 .navigation {
 	float: right;
-}
-.clear {
-	clear: both;
 }
 .nav-li {
 	display: inline-block;
@@ -21,13 +27,7 @@
 	z-index: 15;
 }
 
-body {
-	padding-top: 36px;
-}
-
-.test {
-	font-size: 40px;
-}
+/*Chat icon*/
 .chat{
 	position: fixed;
 	right: 30px;
@@ -36,6 +36,11 @@ body {
 .chat .image-chat {
 	height: 80px;
 }
+
+/*Position sticky*/
+.test {
+	font-size: 40px;
+}
 .sticky {
 	background-color: green;
 	font-size: 20px;
@@ -43,6 +48,8 @@ body {
 	top: 40px;
 	left:0;
 }
+
+/*Position relative & absolute*/
 .wraper-box {
 	height: 300px;
 	width: 300px;
@@ -87,6 +94,7 @@ body {
 .image-test {
 	width: 100%;
 }
+/*Float*/
 .image {
 	float: left;
 }
@@ -94,24 +102,10 @@ body {
 	float: right;
 	width: 600px;
 }
-.wraper-box::after {
+.wraper-box2::after {
 	content: ' ';
 	clear: both;
 	display: block;
 }
 
-.image1 {
-	float: left;
-}
-.image2 {
-	float: right;
-}
-.clear {
-	clear: both;
-}
-.images-box::after {
-	content: '';
-	clear: both;
-	display: block;
-}
 
